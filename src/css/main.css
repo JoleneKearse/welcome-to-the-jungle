@@ -1,0 +1,51 @@
+body {
+  display: grid;
+  place-items: center;
+  background-color: #683030;
+  background-image: url("../img/fans.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+  background-color: #23232399;
+  padding: 1em;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  color: #f0f328;
+}
+
+p {
+  line-height: .5rem;
+  color: #f0f1a9;
+}
+
+img {
+  margin-top: 1em;
+}
+
+.wrapper,
+img {
+  border-radius: 2em;
+  box-shadow: 3px 6px 12px #270505;
+}
+
+@media (max-width: 450px) {
+  .wrapper {
+    margin-top: 0;
+  }
+  p {
+    line-height: 2em;
+  }
+}
